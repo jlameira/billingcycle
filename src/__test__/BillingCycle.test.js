@@ -12,7 +12,7 @@ const mockStore = configureStore(middlewares);
 
 configure({ adapter: new Adapter() });
 
-fdescribe('Dashboard', () => {
+describe('Dashboard', () => {
   let wrapper;
   const summary = { credit: 10, debt: 5 };
   const initialState = {
