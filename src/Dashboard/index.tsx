@@ -30,21 +30,21 @@ const Dashboard: React.FC = (props: any) => {
             color="green"
             icon="bank"
             value={`R$ ${summary.credit}`}
-            text="Total de Créditos"
+            text="Total Credits"
           />
           <ValueBox
             cols="12 4"
             color="red"
             icon="credit-card"
             value={`R$ ${summary.debt}`}
-            text="Total de Débitos"
+            text="Total Debits"
           />
           <ValueBox
             cols="12 4"
             color="blue"
             icon="money"
             value={`R$ ${summary.credit - summary.debt}`}
-            text="Valor Consolidado"
+            text="Consolidated Amount"
           />
         </Row>
       </Content>

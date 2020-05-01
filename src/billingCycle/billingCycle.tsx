@@ -20,18 +20,18 @@ export const BillingCycle: React.FC = () => {
 
   return (
     <div>
-      <ContenHeader title="Ciclos de Pagamento" small="Cadastro" />
+      <ContenHeader title="Billing Cycles" small="Register" />
       <Content>
         <Tabs>
           <TabsHeader>
-            <TabHeader label="Listar" icon="bars" target="tabList" />
-            <TabHeader label="Incluir" icon="plus" target="tabCreate" />
-            <TabHeader label="Alterar" icon="pencil" target="tabUpdate" />
-            <TabHeader label="Excluir" icon="trash-o" target="tabDelete" />
+            <TabHeader label="List" icon="bars" target="tabList" />
+            <TabHeader label="Create" icon="plus" target="tabCreate" />
+            <TabHeader label="Update" icon="pencil" target="tabUpdate" />
+            <TabHeader label="Delete" icon="trash-o" target="tabDelete" />
           </TabsHeader>
           <TabsContent>
             <TabContent id="tabList">
-              <h1>Lista</h1>
+              <h1>List</h1>
             </TabContent>
             <TabContent id="tabCreate">
               <h1>Create</h1>
