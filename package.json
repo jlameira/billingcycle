@@ -44,7 +44,7 @@
     "@types/redux-promise": "^0.5.28",
     "@types/styled-components": "^5.1.0",
     "admin-lte": "^2.3.11",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "font-awesome": "^4.7.0",
